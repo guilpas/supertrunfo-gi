@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   min-height: 854px;
-  background-image: url("https://64.media.tumblr.com/b9874736bdc3db0956617db6f9b210e4/8c7b2b5d40d4bc7c-10/s540x810/ce5cd7978b1e92222cc54eb5042ef63f72d9ddc5.gifv");
+  background-image: url("img/fundo.gif");
   background-color: #111;
   background-attachment: fixed;
   background-size: cover;
@@ -113,7 +113,6 @@ a {
   width: 190px;
   height: 150px;
   object-fit: cover;
-  object-position: 50% 30%;
   border-radius: 1%;
   border-style: solid;
   border-width: thin;

@@ -94,7 +94,7 @@ function mostrarCartas(mostraOponente) {
     ).innerHTML = novoTabuleiroJogador;
     novoTabuleiroMaquina =
       `<p>Máquina</p><p>Cartas: ${baralhoMaquina.length + 1}</p>` +
-      "<img id='imgVerso' src='https://i.imgur.com/JdMskvM.jpg'>";
+      "<img id='imgVerso' src='img/carta-fundo.jpg'>";
   } else {
     novoTabuleiroMaquina = novoTabuleiro(
       "Máquina",
@@ -167,10 +167,10 @@ function embaralhar(cartas) {
 }
 
 var baralho = [];
-var end = "https://static.wikia.nocookie.net/gensin-impact/images/";
+var end = "img/portraits/portrait-";
 var cartaAmber = {
   nome: "Amber",
-  imagem: end + "2/26/Character_Amber_Card.jpg",
+  imagem: end + "amber.jpg",
   elemento: "pyro",
   estrelas: "4s",
   atributos: {
@@ -184,8 +184,8 @@ var cartaAmber = {
 baralho.push(cartaAmber);
 
 var cartaBennet = {
-  nome: "Bennet",
-  imagem: end + "7/7f/Character_Bennett_Card.jpg",
+  nome: "Bennett",
+  imagem: end + "bennett.jpg",
   elemento: "pyro",
   estrelas: "4s",
   atributos: {
@@ -200,7 +200,7 @@ baralho.push(cartaBennet);
 
 var cartaDiluc = {
   nome: "Diluc",
-  imagem: end + "4/45/Character_Diluc_Card.jpg",
+  imagem: end + "diluc.jpg",
   elemento: "pyro",
   estrelas: "5s",
   atributos: {
@@ -215,7 +215,7 @@ baralho.push(cartaDiluc);
 
 var cartaKlee = {
   nome: "Klee",
-  imagem: end + "7/78/Character_Klee_Card.jpg",
+  imagem: end + "klee.jpg",
   elemento: "pyro",
   estrelas: "5s",
   atributos: {
@@ -230,7 +230,7 @@ baralho.push(cartaKlee);
 
 var cartaXiangling = {
   nome: "Xiangling",
-  imagem: end + "f/f1/Character_Xiangling_Card.jpg",
+  imagem: end + "xiangling.jpg",
   elemento: "pyro",
   estrelas: "4s",
   atributos: {
@@ -245,7 +245,7 @@ baralho.push(cartaXiangling);
 
 var cartaXinyan = {
   nome: "Xinyan",
-  imagem: end + "4/4c/Character_Xinyan_Card.jpeg",
+  imagem: end + "xinyan.jpg",
   elemento: "pyro",
   estrelas: "4s",
   atributos: {
@@ -260,7 +260,7 @@ baralho.push(cartaXinyan);
 
 var cartaHutao = {
   nome: "Hu tao",
-  imagem: end + "2/22/Character_Hu_Tao_Card.jpg",
+  imagem: end + "hutao.jpg",
   elemento: "pyro",
   estrelas: "5s",
   atributos: {
@@ -275,7 +275,7 @@ baralho.push(cartaHutao);
 
 var cartaYanfei = {
   nome: "Yanfei",
-  imagem: end + "f/f3/Character_Yanfei_Card.png",
+  imagem: end + "yanfei.jpg",
   elemento: "pyro",
   estrelas: "4s",
   atributos: {
@@ -290,7 +290,7 @@ baralho.push(cartaYanfei);
 
 var cartaYoimiya = {
   nome: "Yoimiya",
-  imagem: end + "4/4b/Character_Yoimiya_Card.png",
+  imagem: end + "yoimiya.jpg",
   elemento: "pyro",
   estrelas: "5s",
   atributos: {
@@ -305,7 +305,7 @@ baralho.push(cartaYoimiya);
 
 var cartaBarbara = {
   nome: "Barbara",
-  imagem: end + "9/93/Character_Barbara_Card.jpg",
+  imagem: end + "barbara.jpg",
   elemento: "hydro",
   estrelas: "4s",
   atributos: {
@@ -320,7 +320,7 @@ baralho.push(cartaBarbara);
 
 var cartaMona = {
   nome: "Mona",
-  imagem: end + "6/69/Character_Mona_Card.jpg",
+  imagem: end + "mona.jpg",
   elemento: "hydro",
   estrelas: "5s",
   atributos: {
@@ -335,7 +335,7 @@ baralho.push(cartaMona);
 
 var cartaXingqiu = {
   nome: "Xingqiu",
-  imagem: end + "c/c2/Character_Xingqiu_Card.jpg",
+  imagem: end + "xingqiu.jpg",
   elemento: "hydro",
   estrelas: "4s",
   atributos: {
@@ -350,7 +350,7 @@ baralho.push(cartaXingqiu);
 
 var cartaTartaglia = {
   nome: "Tartaglia",
-  imagem: end + "4/4c/Character_Tartaglia_Card.png",
+  imagem: end + "tartaglia.jpg",
   elemento: "hydro",
   estrelas: "5s",
   atributos: {
@@ -365,7 +365,7 @@ baralho.push(cartaTartaglia);
 
 var cartaRaiden = {
   nome: "Raiden Ei",
-  imagem: end + "a/a4/Character_Raiden_Shogun_Card.jpg",
+  imagem: end + "raiden.jpg",
   elemento: "electro",
   estrelas: "5s",
   atributos: {
@@ -380,7 +380,7 @@ baralho.push(cartaRaiden);
 
 var cartaBeidou = {
   nome: "Beidou",
-  imagem: end + "8/84/Character_Beidou_Card.jpg",
+  imagem: end + "beidou.jpg",
   elemento: "electro",
   estrelas: "4s",
   atributos: {
@@ -395,7 +395,7 @@ baralho.push(cartaBeidou);
 
 var cartaFischl = {
   nome: "Fischl",
-  imagem: end + "4/48/Character_Fischl_Card.jpg",
+  imagem: end + "fischl.jpg",
   elemento: "electro",
   estrelas: "4s",
   atributos: {
@@ -410,7 +410,7 @@ baralho.push(cartaFischl);
 
 var cartaKeqing = {
   nome: "Keqing",
-  imagem: end + "f/f4/Character_Keqing_Card.jpg",
+  imagem: end + "keqing.jpg",
   elemento: "electro",
   estrelas: "5s",
   atributos: {
@@ -425,7 +425,7 @@ baralho.push(cartaKeqing);
 
 var cartaLisa = {
   nome: "Lisa",
-  imagem: end + "d/dc/Character_Lisa_Card.jpg",
+  imagem: end + "lisa.jpg",
   elemento: "electro",
   estrelas: "4s",
   atributos: {
@@ -440,7 +440,7 @@ baralho.push(cartaLisa);
 
 var cartaRazor = {
   nome: "Razor",
-  imagem: end + "6/68/Character_Razor_Card.jpg",
+  imagem: end + "razor.jpg",
   elemento: "electro",
   estrelas: "4s",
   atributos: {
@@ -455,7 +455,7 @@ baralho.push(cartaRazor);
 
 var cartaKujou = {
   nome: "Kujou Sara",
-  imagem: end + "7/70/Character_Kujou_Sara_Card.jpg",
+  imagem: end + "kujou.jpg",
   elemento: "electro",
   estrelas: "4s",
   atributos: {
@@ -470,7 +470,7 @@ baralho.push(cartaKujou);
 
 var cartaChong = {
   nome: "Chongyun",
-  imagem: end + "f/fa/Character_Chongyun_Card.jpg",
+  imagem: end + "chongyun.jpg",
   elemento: "cryo",
   estrelas: "4s",
   atributos: {
@@ -485,7 +485,7 @@ baralho.push(cartaChong);
 
 var cartaKaeya = {
   nome: "Kaeya",
-  imagem: end + "6/64/Character_Kaeya_Card.jpg",
+  imagem: end + "kaeya.jpg",
   elemento: "cryo",
   estrelas: "4s",
   atributos: {
@@ -500,7 +500,7 @@ baralho.push(cartaKaeya);
 
 var cartaQiqi = {
   nome: "Qiqi",
-  imagem: end + "b/b9/Character_Qiqi_Card.jpg",
+  imagem: end + "qiqi.jpg",
   elemento: "cryo",
   estrelas: "5s",
   atributos: {
@@ -515,7 +515,7 @@ baralho.push(cartaQiqi);
 
 var cartaDiona = {
   nome: "Diona",
-  imagem: end + "0/08/Character_Diona_Card.png",
+  imagem: end + "diona.jpg",
   elemento: "cryo",
   estrelas: "4s",
   atributos: {
@@ -530,7 +530,7 @@ baralho.push(cartaDiona);
 
 var cartaGanyu = {
   nome: "Ganyu",
-  imagem: end + "8/8d/Character_Ganyu_Card.png",
+  imagem: end + "ganyu.jpg",
   elemento: "cryo",
   estrelas: "5s",
   atributos: {
@@ -545,7 +545,7 @@ baralho.push(cartaGanyu);
 
 var cartaRosaria = {
   nome: "Rosaria",
-  imagem: end + "6/6d/Character_Rosaria_Card.png",
+  imagem: end + "rosaria.jpg",
   elemento: "cryo",
   estrelas: "4s",
   atributos: {
@@ -560,7 +560,7 @@ baralho.push(cartaRosaria);
 
 var cartaAyaka = {
   nome: "Ayaka",
-  imagem: end + "3/34/Character_Kamisato_Ayaka_Card.png",
+  imagem: end + "ayaka.jpg",
   elemento: "cryo",
   estrelas: "5s",
   atributos: {
@@ -575,7 +575,7 @@ baralho.push(cartaAyaka);
 
 var cartaEula = {
   nome: "Eula",
-  imagem: end + "a/ac/Character_Eula_Card.png",
+  imagem: end + "eula.jpg",
   elemento: "cryo",
   estrelas: "5s",
   atributos: {
@@ -590,7 +590,7 @@ baralho.push(cartaEula);
 
 var cartaAloy = {
   nome: "Aloy",
-  imagem: end + "c/cb/Character_Aloy_Card.png",
+  imagem: end + "aloy.jpg",
   elemento: "cryo",
   estrelas: "5s",
   atributos: {
@@ -605,7 +605,7 @@ baralho.push(cartaAloy);
 
 var cartaVenti = {
   nome: "Venti",
-  imagem: end + "7/76/Character_Venti_Card.jpg",
+  imagem: end + "venti.jpg",
   elemento: "anemo",
   estrelas: "5s",
   atributos: {
@@ -620,7 +620,7 @@ baralho.push(cartaVenti);
 
 var cartaJean = {
   nome: "Jean",
-  imagem: end + "0/0e/Character_Jean_Card.jpg",
+  imagem: end + "jean.jpg",
   elemento: "anemo",
   estrelas: "5s",
   atributos: {
@@ -635,7 +635,7 @@ baralho.push(cartaJean);
 
 var cartaSucrose = {
   nome: "Sucrose",
-  imagem: end + "2/22/Character_Sucrose_Card.jpg",
+  imagem: end + "sucrose.jpg",
   elemento: "anemo",
   estrelas: "4s",
   atributos: {
@@ -650,7 +650,7 @@ baralho.push(cartaSucrose);
 
 var cartaXiao = {
   nome: "Xiao",
-  imagem: end + "8/88/Character_Xiao_Card.jpg",
+  imagem: end + "xiao.jpg",
   elemento: "anemo",
   estrelas: "5s",
   atributos: {
@@ -665,7 +665,7 @@ baralho.push(cartaXiao);
 
 var cartaKazuha = {
   nome: "Kazuha",
-  imagem: end + "2/2d/Character_Kaedehara_Kazuha_Card.png",
+  imagem: end + "kazuha.jpg",
   elemento: "anemo",
   estrelas: "5s",
   atributos: {
@@ -680,7 +680,7 @@ baralho.push(cartaKazuha);
 
 var cartaSayu = {
   nome: "Sayu",
-  imagem: end + "8/83/Character_Sayu_Card.png",
+  imagem: end + "sayu.jpg",
   elemento: "anemo",
   estrelas: "4s",
   atributos: {
@@ -695,7 +695,7 @@ baralho.push(cartaSayu);
 
 var cartaZhongli = {
   nome: "Zhongli",
-  imagem: end + "7/79/Character_Zhongli_Card.png",
+  imagem: end + "zhongli.jpg",
   elemento: "geo",
   estrelas: "5s",
   atributos: {
@@ -710,7 +710,7 @@ baralho.push(cartaZhongli);
 
 var cartaNingguang = {
   nome: "Ningguang",
-  imagem: end + "3/3e/Character_Ningguang_Card.jpg",
+  imagem: end + "ningguang.jpg",
   elemento: "geo",
   estrelas: "4s",
   atributos: {
@@ -725,7 +725,7 @@ baralho.push(cartaNingguang);
 
 var cartaNoelle = {
   nome: "Noelle",
-  imagem: end + "9/92/Character_Noelle_Card.jpg",
+  imagem: end + "noelle.jpg",
   elemento: "geo",
   estrelas: "4s",
   atributos: {
@@ -740,7 +740,7 @@ baralho.push(cartaNoelle);
 
 var cartaAlbedo = {
   nome: "Albedo",
-  imagem: end + "f/f8/Character_Albedo_Card.png",
+  imagem: end + "albedo.jpg",
   elemento: "geo",
   estrelas: "5s",
   atributos: {
@@ -755,7 +755,7 @@ baralho.push(cartaAlbedo);
 
 var cartaPaimon = {
   nome: "Paimon",
-  imagem: "https://wallpaperaccess.com/full/5918327.jpg",
+  imagem: end + "paimon.jpg",
   elemento: "neutro",
   estrelas: "0s",
   atributos: {
@@ -770,7 +770,7 @@ baralho.push(cartaPaimon);
 
 var cartaAether = {
   nome: "Aether",
-  imagem: end + "1/1c/Traveler_Male_Card.jpg",
+  imagem: end + "traveler-m.jpg",
   elemento: "neutro",
   estrelas: "5s",
   atributos: {
@@ -785,7 +785,7 @@ baralho.push(cartaAether);
 
 var cartaLumine = {
   nome: "Lumine",
-  imagem: end + "c/c8/Traveler_Female_Card.jpg",
+  imagem: end + "traveler-f.jpg",
   elemento: "neutro",
   estrelas: "5s",
   atributos: {

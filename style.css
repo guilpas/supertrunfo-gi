@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-image: url("https://64.media.tumblr.com/b9874736bdc3db0956617db6f9b210e4/8c7b2b5d40d4bc7c-10/s540x810/ce5cd7978b1e92222cc54eb5042ef63f72d9ddc5.gifv");
+  background-color: #111;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+#partida {
+  display: none;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.page-title {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #060606;
+  margin: 5px 0;
+  font-size: 30px;
+}
+
+#regras {
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.imageInfo {
+  width: 50px;
+  cursor: pointer;
+  background: white;
+  border-radius: 50%;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.form-wrapper-branco {
+  background: whitesmoke;
+}
+
+button {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 0;
+}
+
+button :enabled {
+  transition: 170ms ease-in-out;
+}
+
+button:hover:enabled {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+a {
+  margin-top: 10px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#tabuleiros {
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+}
+
+.tabuleiro {
+  flex: 3;
+}
+.tabuleiro p {
+  color: whitesmoke;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.centro {
+  flex: 2;
+  margin: auto;
+  color: whitesmoke;
+}
+
+#imgVerso {
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.cartaJogador {
+  margin: auto;
+  width: 200px;
+  height: 300px;
+  border-color: darkgray;
+  background: whitesmoke;
+  box-shadow: inset 0 0 1em black, 0 0 1em red;
+  border-radius: 5%;
+}
+
+.cartaJogador img {
+  width: 190px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 1%;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightslategray;
+}
+
+.cartaJogador h2 {
+  color: darkgreen;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cartaJogador span {
+  background-color: black;
+  border-radius: 15%;
+  border-style: double;
+  color: silver;
+  margin-left: 25px;
+  font-size: 25px;
+  padding: 5px 10px 9px 10px;
+}

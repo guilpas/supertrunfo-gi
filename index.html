@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Super Trunfo - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 07
+  </title>
+</head>
+
+<body>
+  <div id="links">
+    <a href="https://codepen.io/guilpas/full/OJggdNX" target="_blank">01>Notas</a>
+    <a href="https://codepen.io/guilpas/full/eYRGOdy" target="_blank">02>Conversores</a>
+    <a href="https://codepen.io/guilpas/full/ZEyapbg" target="_blank">03>Mentalista</a>
+    <a href="https://codepen.io/guilpas/full/gORogap" target="_blank">04>AluraFlix</a>
+    <a href="https://codepen.io/guilpas/full/MWoQpKP" target="_blank">05>MyAluraList</a>
+    <a href="https://codepen.io/guilpas/full/jOwxyqO" target="_blank">06>Classificação</a>
+  </div>
+
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/Genshin_Impact_logo.svg/320px-Genshin_Impact_logo.svg.png" class="page-logo" alt="">
+    <p class="page-title">Super Trunfo</p>
+
+    <div id="inicial">
+      <p class="page-subtitle">
+        Qual duração da partida?<br>Isso muda a quantidade de cartas.
+      </p>
+
+      <div class="form-wrapper-branco">
+        <input type="radio" id="curto" name="tipoJogo" value=5 checked>
+        <label for="curto">Curta (5)</label>
+        <input type="radio" id="medio" name="tipoJogo" value=10>
+        <label for="medio">Média (10)</label>
+        <input type="radio" id="longo" name="tipoJogo" value=21>
+        <label for="medio">Longa (21)</label>
+      </div>
+      <button id="btnComecar" onclick="comecarPartida();">Começar partida</button>
+    </div>
+
+    <div id="regras">
+      <p>Cada jogador começa com um mesmo tanto de cartas e o objetivo é ganhar todas as cartas do oponente.</p>
+      <p>O jogo baseia-se na comparação dos valores de sua carta com a do outro jogador. Se o valor do atributo que escolher for maior que o valor da carta do oponente ambas vão pro final do seu baralho. Se for menor as cartas vão pro baralho do oponente e se empatar cada carta volta pro final do respectivo baralho. </p>
+      <p>Existe entre as cartas uma carta SUPER TRUNFO, a Paimon. Esta carta vence todas as cartas do baralho independentemente do valor de seus atributos. A Paimon perde apenas para os arcontes e os viajantes, Aether e Lumine, indicados com o código contendo a letra A (1A, 2A, 3A, etc). Quando a Paimon aparecer, a comparação será automática, sem necessidade de escolher uma atributo.
+      </p>
+      <p>Boa sorte e divirta-se!</p>
+    </div>
+
+    <div id="partida">
+      <img class="imageInfo" src="https://www.shareicon.net/data/64x64/2015/10/17/657577_info_512x512.png" onclick="mostrarRegras()">
+      <button id="btnVoltar" onclick="voltarTelaInicial();">Voltar tela inicial</button>
+      <p class="page-subtitle">
+        Escolha o atributo (hp,atk ou def).
+      </p>
+      <div id="tabuleiros">
+        <div id="tabuleiroJogador" class="tabuleiro">
+        </div>
+        <div id="tabuleiroVs" class="centro">
+        </div>
+        <div id="tabuleiroMaquina" class="tabuleiro">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
